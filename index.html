@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Lipon Chandra Das · Mathematician & Data Scientist</title>
+  <meta name="description" content="Portfolio of Dr. Lipon Chandra Das, Associate Professor of Mathematics at the University of Chittagong, specializing in AI, climate modelling, and data science.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Three.js Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="content-wrapper">
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-logo">LCD.</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-badge">University of Chittagong · Bangladesh</div>
+        <h1>
+          Dr. Lipon<br>
+          <span class="highlight">Chandra Das</span>
+        </h1>
+        <p class="hero-role">
+          Associate Professor · <span>Department of Mathematics</span>
+        </p>
+        <p class="hero-desc">
+          Bridging pure mathematics with artificial intelligence, climate modelling, and data science.
+          Dedicated to solving real-world problems through optimisation, deep learning, and
+          advanced statistical methods.
+        </p>
+        <div class="hero-cta">
+          <a href="#research" class="btn btn-primary">Explore Research →</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+
+      <!-- 📸 HERO PORTRAIT -->
+      <div class="hero-portrait">
+        <div class="portrait-ring">
+          <div class="portrait-inner">
+            <span class="portrait-fallback">∑</span>
+            <img src="assets/lipon-das.jpg"
+                 alt="Dr. Lipon Chandra Das"
+                 onload="this.classList.add('loaded')"
+                 onerror="this.style.display='none'">
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="line"></div>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-header reveal">
+        <div class="section-label">About</div>
+        <h2 class="section-title">A Mathematical Mind,<br>a Data-Driven Vision</h2>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-avatar-wrapper">
+          <div class="about-avatar">
+            <span class="avatar-fallback">∑</span>
+            <img src="asset\lipon-das.jpg"
+                 alt="Dr. Lipon Chandra Das"
+                 onload="this.classList.add('loaded')"
+                 onerror="this.style.display='none'">
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Dr. Lipon Chandra Das</h3>
+          <p>
+            Dr. Das currently serves as an Associate Professor in the Department of Mathematics
+            at the University of Chittagong, Bangladesh. Prior to this role, he worked as a
+            Lecturer at BGC Trust University Bangladesh and Premier University from January 2012
+            to June 2018.
+          </p>
+          <p>
+            He holds a B.Sc. (Honors) in Mathematics, an M.S., and an M.Phil. in Pure Mathematics
+            from the University of Chittagong, awarded in 2010, 2012, and 2018, respectively.
+            He completed his PhD at Shandong University, China (2019–2024), focusing on climate
+            modelling and data-driven prediction.
+          </p>
+          <p>
+            His research interests encompass Climate Change in Bangladesh, AI, Data Analysis,
+            Data Mining, Deep Learning, Applied Statistics, and Optimisation &amp; Non-linear
+            Programming. His academic journey reflects a deep commitment to both teaching
+            and research.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="number">15+</div>
+              <div class="label">Years Teaching</div>
+            </div>
+            <div class="stat-item">
+              <div class="number">20+</div>
+              <div class="label">Publications</div>
+            </div>
+            <div class="stat-item">
+              <div class="number">5</div>
+              <div class="label">Awards</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research">
+      <div class="section-header reveal">
+        <div class="section-label">Research</div>
+        <h2 class="section-title">Areas of Interest</h2>
+        <p class="section-subtitle">
+          Interdisciplinary research at the intersection of mathematics, climate science, and artificial intelligence.
+        </p>
+      </div>
+      <div class="research-tags reveal">
+        <span class="research-tag">Climate Change in Bangladesh</span>
+        <span class="research-tag">Artificial Intelligence</span>
+        <span class="research-tag">Deep Learning</span>
+        <span class="research-tag">Data Mining</span>
+        <span class="research-tag">Applied Statistics</span>
+        <span class="research-tag">Optimization &amp; Non-linear Programming</span>
+        <span class="research-tag">Operations Research</span>
+        <span class="research-tag">Digital Earth</span>
+        <span class="research-tag">Big Data Analysis</span>
+        <span class="research-tag">Climate Modeling</span>
+        <span class="research-tag">Data Science</span>
+        <span class="research-tag">Numerical Analysis</span>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="section-header reveal">
+        <div class="section-label">Journey</div>
+        <h2 class="section-title">Professional Experience</h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Aug 2025 – Present</div>
+          <h4>Associate Professor</h4>
+          <p>Department of Mathematics, University of Chittagong</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jul 2019 – Jul 2025</div>
+          <h4>Assistant Professor</h4>
+          <p>Department of Mathematics, University of Chittagong</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jul 2018 – Jun 2019</div>
+          <h4>Lecturer</h4>
+          <p>Department of Mathematics, University of Chittagong</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Sep 2014 – Jun 2018</div>
+          <h4>Lecturer</h4>
+          <p>Premier University, Chittagong</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jan 2012 – Sep 2014</div>
+          <h4>Lecturer</h4>
+          <p>BGC Trust University Bangladesh, Chittagong</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications">
+      <div class="section-header reveal">
+        <div class="section-label">Scholarship</div>
+        <h2 class="section-title">Publications</h2>
+        <p class="section-subtitle">
+          Peer-reviewed research in climate science, data mining, and mathematical optimisation.
+        </p>
+      </div>
+      <div class="pub-list reveal">
+        <div class="pub-item glass-card">
+          <div class="pub-year">2025</div>
+          <div class="pub-details">
+            <h4>Daily soil temperatures at varying depths in Bangladesh during 2001–2022</h4>
+            <p class="journal">Frontiers in Forests and Global Change, 8, 1615261 · June 2025</p>
+            <p class="authors">Lipon Chandra Das, Zhihua Zhang, M. James C. Crabbe, Md. Wahidul Alam</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2025</div>
+          <div class="pub-details">
+            <h4>IETI Transactions on Data Analysis and Forecasting (ITDAF)</h4>
+            <p class="journal">IETI Transactions on Data Analysis and Forecasting · July 2025</p>
+            <p class="authors">Lipon Chandra Das et al.</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4>BlossomNet: A Deep Learning Framework for Accurate Flower Identification</h4>
+            <p class="journal">Book chapter · 2024</p>
+            <p class="authors">Anisul Islam, Lipon Chandra Das, Parven Sultana, Omme Johora Tarin</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4>Estimating Soil Temperature at Various Depths in Bangladesh: A Comparative Analysis of Advanced Machine Learning Tree-Based Models</h4>
+            <p class="journal">Book chapter · 2024</p>
+            <p class="authors">Lipon Chandra Das, Tasnim Anisha, Anisul Islam</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4>Forecasting Precipitation Using a Markov Chain Model in the Coastal Region in Bangladesh</h4>
+            <p class="journal">Nature Environment and Pollution Technology, 23, 2201–2209 · December 2024</p>
+            <p class="authors">Al Mamun Pranto, Usama Ibn Aziz, Lipon Chandra Das, Sanjib Ghosh, Anisul Islam</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4>Exploring the future of edtech and the COVID-19 impact on digital learning in Bangladesh</h4>
+            <p class="journal">American Journal of Education and Learning · August 2024</p>
+            <p class="authors">Anika Tabassum Faria, Lipon Chandra Das, Hridika Bhattacharjee, Md. Abu Azad Tamim</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4>Climate change challenges in Bangladesh</h4>
+            <p class="journal">International Journal of Big Data Mining for Global Warming · July 2024</p>
+            <p class="authors">Lipon Chandra Das, A. S. M. Mohiul Islam, Shomi Aktar, Farzana Sultana</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4>Spatio-temporal patterns of rainfall variability in Bangladesh</h4>
+            <p class="journal">International Journal of Global Warming · April 2024</p>
+            <p class="authors">Lipon Chandra Das, Zhihua Zhang, J. Crabbe, A. Liu</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4>High-Resolution Temperature Evolution Maps of Bangladesh via Data-Driven Learning</h4>
+            <p class="journal">Atmosphere (MDPI) · March 2024</p>
+            <p class="authors">Yichen Wu, Jiaxin Yang, Zhihua Zhang, Lipon Chandra Das, M. James C. Crabbe</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h4>High-resolution Precipitation Prediction in Bangladesh via Ensemble Learning</h4>
+            <p class="journal">International Journal of Global Warming · March 2024</p>
+            <p class="authors">Yichen Wu, Jiaxin Yang, Lipon Chandra Das, Zhihua Zhang, M. James C. Crabbe</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2023</div>
+          <div class="pub-details">
+            <h4>Optimization of Data-driven Soil Temperature Forecast, the First Model in Bangladesh</h4>
+            <p class="journal">Applied Sciences (MDPI), 13, 12616 · November 2023</p>
+            <p class="authors">Lipon Chandra Das, Zhihua Zhang, M. James C. Crabbe</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2023</div>
+          <div class="pub-details">
+            <h4>Optimization Hybrid of Multiple-Lag LSTM Networks for Meteorological Prediction</h4>
+            <p class="journal">Mathematics (MDPI) · September 2023</p>
+            <p class="authors">Lin Zhu, Zhihua Zhang, Michael James C. Crabbe, Lipon Chandra Das</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2023</div>
+          <div class="pub-details">
+            <h4>Responses of Extreme Climates in South Asia under a G6sulfur Scenario of Climate Engineering</h4>
+            <p class="journal">Atmosphere (MDPI) · September 2023</p>
+            <p class="authors">Jingrong Wang, Zhihua Zhang, Michael James C. Crabbe, Lipon Chandra Das</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2023</div>
+          <div class="pub-details">
+            <h4>Multifractal Features and Dynamical Thresholds of Temperature Extremes in Bangladesh</h4>
+            <p class="journal">Fractal and Fractional (MDPI) · July 2023</p>
+            <p class="authors">Anxin Liu, Zhihua Zhang, Michael James C. Crabbe, Lipon Chandra Das</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2023</div>
+          <div class="pub-details">
+            <h4>Evaluation of SDSM Models for Climate Predictions in Bangladesh</h4>
+            <p class="journal">International Journal of Big Data Mining for Global Warming, 5(01) · May 2023</p>
+            <p class="authors">Yue Han, Jiaxin Yang, Lipon Chandra Das</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2022</div>
+          <div class="pub-details">
+            <h4>Using Data Mining Techniques for COVID-19: A Systematic Review</h4>
+            <p class="journal">International Journal on Data Science and Technology · June 2022</p>
+            <p class="authors">Sanjib Ghosh, Lipon Chandra Das</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2022</div>
+          <div class="pub-details">
+            <h4>Statistical Learning-Based Spatial Downscaling Models for Precipitation Distribution</h4>
+            <p class="journal">Advances in Meteorology (Hindawi), 3140872 · June 2022</p>
+            <p class="authors">Yichen Wu, Zhihua Zhang, Michael James C. Crabbe, Lipon Chandra Das</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2022</div>
+          <div class="pub-details">
+            <h4>Mann–Kendall Trend Detection for Precipitation and Temperature in Bangladesh</h4>
+            <p class="journal">International Journal of Big Data Mining for Global Warming, 4(01) · April 2022</p>
+            <p class="authors">Lipon Chandra Das, A. S. M. Mohiul Islam, Sanjib Ghosh</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2021</div>
+          <div class="pub-details">
+            <h4>Annual and Seasonal Variations in Temperature Extremes and Rainfall in Bangladesh, 1989–2018</h4>
+            <p class="journal">International Journal of Big Data Mining for Global Warming, 3(01) · June 2021</p>
+            <p class="authors">Lipon Chandra Das, Zhihua Zhang</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2020</div>
+          <div class="pub-details">
+            <h4>The Economic Order Quantity Repair and Waste Disposal Model: Solution Approaches</h4>
+            <p class="journal">GANIT Journal of Bangladesh Mathematical Society, 134–144 · January 2020</p>
+            <p class="authors">Misha Billah, M. M. Rizvi, Lipon Chandra Das</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2019</div>
+          <div class="pub-details">
+            <h4>On the Closed Forms of Z(pq), q = kp ± 10</h4>
+            <p class="journal">The Chittagong Univ. J. Sci., 41(1), 96–105 · November 2019</p>
+            <p class="authors">A. A. K. Majumdar, Lipon Chandra Das</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2019</div>
+          <div class="pub-details">
+            <h4>Experimental Evidences from Prisoner's Dilemma and One Shot Games in Duopoly Markets in Bangladesh</h4>
+            <p class="journal">IOSR Journal of Mathematics, 29–39 · April 2019</p>
+            <p class="authors">Lipon Chandra Das, J. Ferdous, S. Taher, W. Z. Loskor</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2018</div>
+          <div class="pub-details">
+            <h4>Ionisation of metastable 3P-state hydrogen atom by electron with exchange effects</h4>
+            <p class="journal">Pramana – J. Phys., 91:78 · December 2018</p>
+            <p class="authors">Shahrina Akter, Sunil Dhar, Nurun Nahar, Lipon Chandra Das</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2018</div>
+          <div class="pub-details">
+            <h4>An Algorithm for Index Numbers Using Average Weighted Base</h4>
+            <p class="journal">International Journal of Engineering Applied Sciences and Technology, 14–22 · August 2018</p>
+            <p class="authors">Mahtab Uddin, Muhaiminul Islam Adnan, Lipon Chandra Das</p>
+          </div>
+        </div>
+        <div class="pub-item glass-card">
+          <div class="pub-year">2013</div>
+          <div class="pub-details">
+            <h4>Empirical evidences of two person zero sum game in duopoly markets in Bangladesh</h4>
+            <p class="journal">IOSR Journal of Economics and Finance (IOSR-JEF), 22–30 · June 2013</p>
+            <p class="authors">Mallika Roy, Lipon Chandra Das</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AWARDS -->
+    <section id="awards">
+      <div class="section-header reveal">
+        <div class="section-label">Recognition</div>
+        <h2 class="section-title">Honors &amp; Awards</h2>
+      </div>
+      <div class="awards-grid reveal">
+        <div class="award-card glass-card">
+          <div class="icon">🏅</div>
+          <h4>IETI 4th PhD Fellowships Award</h4>
+          <p>July 2025 · PhD Research Scholarships &amp; Fellowships</p>
+        </div>
+        <div class="award-card glass-card">
+          <div class="icon">🥇</div>
+          <h4>A F Mujibur Rahaman Foundation</h4>
+          <p>July 2012 · Certificate &amp; Gold Medal in Mathematics</p>
+        </div>
+        <div class="award-card glass-card">
+          <div class="icon">🎓</div>
+          <h4>China Government Scholarship</h4>
+          <p>September 2019 · CSC, China for PhD Research</p>
+        </div>
+        <div class="award-card glass-card">
+          <div class="icon">🏆</div>
+          <h4>A. R. Mallik Award</h4>
+          <p>January 2012 · Merit in B.Sc. (Honors), University of Chittagong</p>
+        </div>
+        <div class="award-card glass-card">
+          <div class="icon">📜</div>
+          <h4>Chittagong University Honours Result</h4>
+          <p>2005 · Merit</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL RESPONSIBILITIES -->
+    <section id="responsibilities">
+      <div class="section-header reveal">
+        <div class="section-label">Service</div>
+        <h2 class="section-title">Professional Responsibilities</h2>
+      </div>
+      <div class="info-list reveal">
+        <div class="info-item glass-card">
+          <div class="icon">📝</div>
+          <div>
+            <h4>Journal Reviewer (2023 – Present)</h4>
+            <p>International Journal of Big Data Mining for Global Warming · Pure and Applied Geophysics · Theoretical and Applied Climatology · BMC Public Health · Journal of Advances in Mathematics and Computer Science</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBERSHIPS -->
+    <section id="memberships">
+      <div class="section-header reveal">
+        <div class="section-label">Community</div>
+        <h2 class="section-title">Academic &amp; Professional Memberships</h2>
+      </div>
+      <div class="info-list reveal">
+        <div class="info-item glass-card">
+          <div class="icon">🎓</div>
+          <div>
+            <h4>Chittagong University Alumni Association</h4>
+            <p>Lifetime Member</p>
+          </div>
+        </div>
+        <div class="info-item glass-card">
+          <div class="icon">🌍</div>
+          <div>
+            <h4>AI for Digital Earth Group</h4>
+            <p>General Member</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="section-header reveal">
+        <div class="section-label">Toolkit</div>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-item glass-card">
+          <div class="skill-icon">🐍</div>
+          <div class="skill-info">
+            <h4>Python</h4>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="95%"></div></div>
+          </div>
+        </div>
+        <div class="skill-item glass-card">
+          <div class="skill-icon">📊</div>
+          <div class="skill-info">
+            <h4>R Studio</h4>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="88%"></div></div>
+          </div>
+        </div>
+        <div class="skill-item glass-card">
+          <div class="skill-icon">🗺️</div>
+          <div class="skill-info">
+            <h4>ArcGIS</h4>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="85%"></div></div>
+          </div>
+        </div>
+        <div class="skill-item glass-card">
+          <div class="skill-icon">📐</div>
+          <div class="skill-info">
+            <h4>MATLAB</h4>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="82%"></div></div>
+          </div>
+        </div>
+        <div class="skill-item glass-card">
+          <div class="skill-icon">⚙️</div>
+          <div class="skill-info">
+            <h4>C++</h4>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="75%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAUGHT COURSES -->
+    <section id="courses">
+      <div class="section-header reveal">
+        <div class="section-label">Teaching</div>
+        <h2 class="section-title">Courses Taught</h2>
+      </div>
+      <div class="courses-grid reveal">
+        <div class="course-tag">Linear Programming</div>
+        <div class="course-tag">Rings and Modules</div>
+        <div class="course-tag">Complex Analysis</div>
+        <div class="course-tag">Methods of Applied Mathematics</div>
+        <div class="course-tag">Special Functions</div>
+        <div class="course-tag">Operation Research</div>
+        <div class="course-tag">Calculus</div>
+        <div class="course-tag">Mathematical Programming &amp; Dynamic Optimization</div>
+        <div class="course-tag">Abstract Algebra</div>
+        <div class="course-tag">Computer Lab (Python)</div>
+      </div>
+    </section>
+
+    <!-- CONFERENCE PRESENTATIONS -->
+    <section id="conferences">
+      <div class="section-header reveal">
+        <div class="section-label">Dissemination</div>
+        <h2 class="section-title">Conference &amp; Research Seminar Presentations</h2>
+      </div>
+      <div class="conf-list reveal">
+        <div class="conf-item glass-card">
+          <h4>Spatio-temporal Variability of Precipitation and Temperature over Bangladesh during 1989–2019</h4>
+          <p>Lipon Chandra Das, Md. Habibur Rahman, Mohammad Sariful Hasan · A F Mujibur Rahman – Bangladesh · January 2023</p>
+        </div>
+        <div class="conf-item glass-card">
+          <h4>Exploring the Variability of Regional Climate Patterns in Bangladesh</h4>
+          <p>Lipon Chandra Das, Mohammad Abu Raihan · Chattagram Research Festival, CU · November 2022</p>
+        </div>
+        <div class="conf-item glass-card">
+          <h4>An algorithm for index numbers using average weighted base</h4>
+          <p>Lipon Chandra Das, Mahtab Uddin, Muhaiminul Islam Adnan · ICQSD 2016 · Port City University, Chittagong · November 2016</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section id="languages">
+      <div class="section-header reveal">
+        <div class="section-label">Communication</div>
+        <h2 class="section-title">Languages</h2>
+      </div>
+      <div class="info-list reveal">
+        <div class="info-item glass-card">
+          <div class="icon">🇬🇧</div>
+          <div>
+            <h4>English</h4>
+            <p>Elementary Proficiency</p>
+          </div>
+        </div>
+        <div class="info-item glass-card">
+          <div class="icon">🇨🇳</div>
+          <div>
+            <h4>Chinese</h4>
+            <p>Elementary Proficiency</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-header reveal">
+        <div class="section-label">Connect</div>
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-subtitle">
+          Open to research collaborations, academic partnerships, and data science consultations.
+        </p>
+      </div>
+      <div class="contact-grid reveal">
+        <div class="contact-card glass-card">
+          <div class="icon">✉️</div>
+          <h4>Email</h4>
+          <a href="mailto:lipon@cu.ac.bd">lipon@cu.ac.bd</a>
+        </div>
+        <div class="contact-card glass-card">
+          <div class="icon">📞</div>
+          <h4>Phone</h4>
+          <a href="tel:+8801814854012">+880 1814 854012</a>
+        </div>
+        <div class="contact-card glass-card">
+          <div class="icon">📍</div>
+          <h4>Location</h4>
+          <p>Department of Mathematics<br>University of Chittagong<br>Chittagong-4331, Bangladesh</p>
+        </div>
+        <div class="contact-card glass-card">
+          <div class="icon">🔗</div>
+          <h4>ORCID</h4>
+          <a href="https://orcid.org/0000-0001-8150-8057" target="_blank" rel="noopener">0000-0001-8150-8057</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      © 2025 Dr. Lipon Chandra Das · Department of Mathematics, University of Chittagong
+    </footer>
+
+  </div>
+
+  <!-- External Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
